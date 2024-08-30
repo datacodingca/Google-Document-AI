@@ -6,13 +6,13 @@ from google.cloud import documentai  # type: ignore
 from google.protobuf.json_format import MessageToDict
 
 # Configura tus variables
-project_id = "genuine-display-293003"
+project_id = "xxxx"
 location = "us"
-processor_id = "7a9942593cc15f6c"
+processor_id = "xxxx"
 file_path = "C:/Users/renee/OneDrive/Personal/eIntegrity-Documents/Test/pdf/W2_XL_input_clean_2950.pdf"  # Asegúrate de que este archivo exista
 mime_type = "application/pdf"
 field_mask = "text,entities,pages.pageNumber"
-processor_version_id = "eb8974e31841e9e5"
+processor_version_id = "xxxxxxx"
 
 def process_document_sample(
     project_id: str,
